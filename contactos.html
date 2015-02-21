@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Contactos</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Your description">
+    <meta name="keywords" content="Your keywords">
+    <meta name="author" content="Your name">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.1.1.js"></script>
+    <script src="js/bgstretcher.js"></script>
+    <script src="js/forms.js"></script>
+
+    <script>
+	$(function(){
+      //  Initialize Backgound Stretcher
+      $('BODY').bgStretcher({
+        images: ['images/backpreto2.jpg'], 
+		imageWidth: 1220, 
+		imageHeight: 600, 
+		resizeProportionally:true,
+			slideDirection: 'N',
+			slideShowSpeed: 1000,
+			transitionEffect: 'fade',
+			sequenceMode: 'normal',		
+			pagination: '#nav'
+	
+       });	
+    });
+    </script>
+
+    <!--[if lt IE 8]>
+   <div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/img/upgrade.jpg"border="0"alt=""/></a></div>  
+ 	<![endif]-->
+    <!--[if lt IE 9]>   
+    <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
+   <script src="js/html5shiv.js"></script>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>  
+  <![endif]-->
+
+    </head>
+    <body>
+<div> 
+      <!--==============================header=================================-->
+      
+      <header>
+	    <div class="linguas">
+		  <a href="contactosen.html"><img src="images/en.png" width="20px"></a><a href="contactos.html"><img src="images/pt.png" width="20px"></a>
+		  </div>
+    <div class="row-nav">
+        <div class="main">
+        <h1 class="logo"><a href="#"><img alt="Piccola Speranza" src="images/logonovo.png" height="100px"></a></h1>
+        <nav>
+           <ul class="menu">
+            <li><a href="inicio.html">Início</a></li>
+            <li><a href="sobre.html">Sobre nós</a>
+			<ul>
+			          <li><a href="visao.html">Visão geral</a></li>
+                      <li><a href="missao.html">A nossa missão</a></li>
+                      <li><a href="valores.html">Os nossos valores</a></li>
+			</ul>
+			</li>
+            <li><a href="#">Galeria</a>
+			<ul>
+			          <li><a href="galleria.html">Outono Inverno 2014</a></li>
+			</ul>
+			</li>
+            <li class="current"><a href="contactos.html">Contactos</a></li>
+          </ul>
+        </nav>
+        <div class="clear"></div>
+      </div>
+      </div>
+  </header>
+  
+  <!--==============================content=================================-->
+  
+   <section id="content">  
+    <div class="main-block">
+    <div class="container_12">     
+             <dl class="address">
+                <dt style="font-size:30px;">Naughty Kid – Confecções, Lda<br>
+                Rua Professor Mário Padrão, nº 295,<br>
+                4785-394 Trofa - Portugal.</dt>
+                <dd> <span>Tel:</span> + 351 252 419 385</dd>
+                <dd> <span>Fax:</span> + 351 252 419 384</dd>  
+				<dd> <span> Email:</span>  info@piccolasperanza.com</dd>	
+				<dd> <span style="font-size:17px;"> Para mercado espanhol:</span> ventas@piccolasperanza.com</dd>
+		
+              </dl>
+			  
+			  <br>
+			  Preencha este formulário para nos contactar.
+			  <br><br>
+			  
+			  <form id="contact-form">
+          <div class="success"> Formulário enviado! <strong>Entrare-mos em contacto brevemente.</strong> </div>
+          <fieldset>
+            <div>
+              <label class="name">
+                <input type="text" value="Nome:">
+                <br>
+                <span class="error">*Nome invalido.</span> <span class="empty">*Campo preenchimento obrigatório.</span> </label>
+            </div>
+            <div>
+              <label class="email">
+                <input type="email" value="E-mail:">
+                <br>
+                <span class="error">*E-mail invalido.</span> <span class="empty">*Campo preenchimento obrigatório.</span> </label>
+            </div>
+            <div>
+              <label class="phone">
+                <input type="tel" value="Tel:">
+                <br>
+                <span class="error">*Tel invalido.</span> <span class="empty">*Campo preenchimento obrigatório.</span> </label>
+            </div>
+            <div>
+              <label class="message">
+                <textarea>Mensagem:</textarea>
+                <br>
+                <span class="error">*Mensagem curta</span> <span class="empty">*Campo preenchimento obrigatório.</span> </label>
+            </div>
+            <div class="buttons-wrapper"><a class="button" data-type="reset">Limpar</a><a class="button" data-type="submit">Enviar</a></div>
+          </fieldset>
+        </form>
+        
+     </div>
+  </div>  
+ </section>   
+ </div>
+
+</body>
+</html>
